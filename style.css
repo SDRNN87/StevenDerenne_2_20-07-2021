@@ -1195,12 +1195,12 @@ h2.tittleNavFooter {
 
     /* ----- Hébergement les plus populaires ------ */
     #articlePopularHosting {
-        padding-right: 2.4rem;
+        padding-right: 3rem;
         margin-left: 1rem;
     }
 
     article.popularHostingCards {
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
 
     div.tittlePopularHosting h2 {
@@ -1219,7 +1219,7 @@ h2.tittleNavFooter {
         padding: 0.375rem;
         width: 23rem;
         height: 13rem;
-        margin-left: 4rem;
+        margin-left: 4.3rem;
     }
 
     div.hostingImg img {
@@ -1231,7 +1231,7 @@ h2.tittleNavFooter {
     #articleActivities {
         width: 92%;
         padding-right: 0;
-        margin-left: -0.8rem;
+        margin-left: -0.6rem;
     }
 
     #articleActivities h2 {
@@ -1260,7 +1260,7 @@ h2.tittleNavFooter {
 
     /* ----- Footer ------ */
     footer {
-        width: 100%;
+        width: 102%;
         padding-right: 0;
     }
 }
