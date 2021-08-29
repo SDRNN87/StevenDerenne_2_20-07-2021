@@ -1518,8 +1518,9 @@ h2.tittleNavFooter {
     
     div.allFilters {
         padding-right: 0;
-        font-size:0.6rem;
+        font-size:1.2rem;
         margin-left:2.5rem;
+        width:420px;
     }
 
     .infoHosting {
@@ -1533,7 +1534,7 @@ h2.tittleNavFooter {
     /* ------ Hébergement populaire ------ */
     #articlePopularHosting {
         width: 100%;
-        padding-right: 6.1rem;
+        padding-right: 6.35rem;
     }
 
     article.popularHostingCards {
@@ -1542,8 +1543,9 @@ h2.tittleNavFooter {
     }
 
     div.tittlePopularHosting h2 {
-        margin-left: -1.5rem;
-        font-size: 1rem;
+        margin-left: -1rem;
+        font-size: 1.2rem;
+        width:180px;
     }
 
     article.popularHostingCards p {
@@ -1553,7 +1555,7 @@ h2.tittleNavFooter {
     
     /* ------ Hébergement classique ------ */
     div.tittleHosting h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-left: 6rem;
     }
 
@@ -1563,7 +1565,7 @@ h2.tittleNavFooter {
 
     div.moreHosting{
         margin-left: 4.5rem;
-        font-size:0.9rem;
+        font-size:1.1rem;
     }
     /* ------ Activitées ------ */
     article.activityCards{
@@ -1571,12 +1573,12 @@ h2.tittleNavFooter {
         }
     
     #articleActivities h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-left: 4rem;
     }
 
     footer {
-        padding-right: 7.7rem;
+        padding-right: 7.9rem;
     }
 
     nav.about {
