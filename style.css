@@ -860,10 +860,10 @@ h2.tittleNavFooter {
         margin-top: -0.5rem;
          }
 
-article.hostingCards .noteHosting {
-    font-size: 0.7rem;
-     margin-top: 2rem;
-    }
+    article.hostingCards .noteHosting {
+        font-size: 0.7rem;
+        margin-top: 2rem;
+        }
 
 
 
@@ -1027,36 +1027,37 @@ article.hostingCards .noteHosting {
     input.searchField {
         width:27rem;
         height:2rem;
-}
+    }
 
-form i {
-    font-size: 23px;
-     padding: 13px 14px 15px;
-   
-}
+    form i {
+        font-size: 23px;
+        padding: 13px 14px 15px;
+    
+    }
 
-.searchFormSubmitinputIcon {
-    display: block;
-    width: 1rem;
-    background: #0065FC;
-    border: 1px #0061f2 solid;
-    border-radius: 0.7rem;
-    color: #FFF;
-    padding-top: 0.8rem;
-    padding-left: 0.6rem;
-    margin-left: -0.5rem;
+    .searchFormSubmitinputIcon {
+        display: block;
+        width: 1rem;
+        background: #0065FC;
+        border: 1px #0061f2 solid;
+        border-radius: 0.7rem;
+        color: #FFF;
+        padding-top: 0.8rem;
+        padding-left: 0.6rem;
+        margin-left: -0.5rem;
 }
 
     /* ----- Filtres ------ */
     section.filters h2 {
         margin-left:2.5rem;
-        font-size:1.5rem;
+        font-size:1.6rem;
         }
     
     div.allFilters {
         padding-right: 0;
-        font-size:1.2rem;
+        font-size:1.4rem;
         margin-left:1rem;
+        width:524px;
     }
 
     .infoHosting {
@@ -1308,7 +1309,7 @@ form i {
          }
 
     div.allFilters {
-        font-size:0.9rem
+        font-size:1.4rem
     }
 
     /* ----- Hébergement les plus populaires ------ */
