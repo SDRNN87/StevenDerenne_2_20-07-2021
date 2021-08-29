@@ -793,21 +793,21 @@ h2.tittleNavFooter {
     }
 
     figure.popularHosting figcaption h3 {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-left: -9rem;
         margin-top: 0.2rem;
     }
 
     article.popularHostingCards p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-left: -9rem;;
-        margin-top: -0.5rem;
+        margin-top: -1.1rem;
     }
 
     article.popularHostingCards .noteHosting {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-left: -9rem;;
-        margin-top: -1rem;
+        margin-top: -0rem;
     }
 
 
@@ -852,17 +852,17 @@ h2.tittleNavFooter {
      }
 
     figure.hosting figcaption h3 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     }
 
     article.hostingCards p {
-        font-size: 0.7rem;
+        font-size: 1rem;
         margin-top: -0.5rem;
          }
 
     article.hostingCards .noteHosting {
-        font-size: 0.7rem;
-        margin-top: 2rem;
+        font-size: 1rem;
+        margin-top: 1rem;
         }
 
 
@@ -1402,74 +1402,6 @@ h2.tittleNavFooter {
 
 }
 
-@media screen and (max-width: 360px) {
-    #register {
-        right: 9rem;
-    }
-
-    nav.mainNav a[data-active=false] {
-        padding-left: 2em;
-        padding-right: 1.7rem;
-    }
-
-    .title {
-        width: 95%;
-        margin-left: -0.5rem;
-        font-size:0.9rem
-    }
-
-    div.allFilters {
-        font-size:0.6rem
-    }
-
-    /* ------ Hébergement populaire ------ */
-    #articlePopularHosting {
-        padding-right: 2.25rem;
-    }
-    figure.popularHosting figcaption h3 {
-        width: 100%;
-        margin-bottom: -0.5rem;
-    }
-
-    /* ------ Hébergement classique ------ */
-    article.hostingCards {
-        width: 25rem;
-    }
-    div.hostingImg img {
-        width: 24rem;
-    }
-
-    .moreHosting {
-        margin-left: 1rem;
-    }
-
-    /* ----- activités ----- */
-    #articleActivities {
-        margin-left: -0.2rem;
-    }
-
-    img.smallActivityImg {
-        width: 25rem;
-    }
-
-    img.activityImg {
-        width: 25rem;
-    }
-
-    img.greatActivityImg {
-        width: 25rem;
-    }
-
-    article.activityCards {
-        max-width: 25rem;
-        width: 25rem;
-    }
-}
-    footer{
-        padding-right: 7.5rem
-         }
-
-
 @media screen and (max-width: 320px) {
    
     body {
@@ -1495,7 +1427,9 @@ h2.tittleNavFooter {
     }
 
     .title{
-        width:auto
+        width: 100%;
+        margin-left: -0.5rem;
+        font-size:0.9rem
     }
 
     input.searchField {
@@ -1548,12 +1482,25 @@ h2.tittleNavFooter {
         width:180px;
     }
 
+    figure.popularHosting figcaption h3 {
+        width: 100%;
+        margin-bottom: -0.5rem;
+    }
+
     article.popularHostingCards p {
         margin-left: autorem;;
         margin-top: 1rem;
     }
     
     /* ------ Hébergement classique ------ */
+    article.hostingCards {
+        width: 25rem;
+    }
+    div.hostingImg img {
+        width: 24rem;
+    }
+    
+    
     div.tittleHosting h2 {
         font-size: 1.2rem;
         margin-left: 6rem;
@@ -1568,8 +1515,26 @@ h2.tittleNavFooter {
         font-size:1.1rem;
     }
     /* ------ Activitées ------ */
+    #articleActivities {
+        margin-left: -0.2rem;
+    }
+
+    img.smallActivityImg {
+        width: 25rem;
+    }
+
+    img.activityImg {
+        width: 25rem;
+    }
+
+    img.greatActivityImg {
+        width: 25rem;
+    }
+
     article.activityCards{
-        margin-left:5.4rem
+        margin-left:5.4rem;
+        max-width: 25rem;
+        width: 25rem;
         }
     
     #articleActivities h2{
