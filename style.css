@@ -477,115 +477,225 @@ h2.tittleNavFooter {
     font-size: 0.8rem;
 }
 
-@media screen and (max-width: 1400px) {
 
-    main {
-        margin-left: 1rem;
+@media screen and (max-width: 1024px) {
+    body {
+        margin-left:2rem;  
     }
 
-    .logo img {
-        margin-left: -8rem;
-    }
+    div.logo {
+    margin-left:0rem;
+     }
 
-    /* ----- Main menu ----- */
+    /* Main menu */
+
     nav.mainNav {
         display: flex;
-        margin-left: 40em;
+        align-items: center;
+        margin-left: 55rem;
     }
 
-    /* ----- Tous les  hébergements ------ */
-    section.allArticleHosting {
-        max-width: 1400px;
-        display: flex;
-        flex-flow: column wrap;
-        margin-left: -1rem;
-    }
-
-    /* -------  hébergements les plus populaires ------ */
-    #articlePopularHosting {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        order: -1;
-        margin-bottom: 2rem;
-        border-radius: 0;
-
-    }
-
-    article.popularHostingCards {
-        padding: 0.375rem;
-        box-sizing: border-box;
-        width: 16rem;
-        height: 15rem;
+    nav.mainNav a {
         margin-right: 2rem;
+        padding-top: 2rem;
+        font-weight: bolder;
+        grid-area: mainNav;
     }
 
-    div.tittlePopularHosting {
-        flex-basis: 100%;
+    nav.mainNav a:hover {
+        border-top: 3px #0065FC solid;
+        color: #0065FC;
     }
 
-    div.popularHostingImg img {
-        height: 7rem;
-        width: 15rem;
-        position: relative;
-        border-radius: 1rem 1rem 0 0;
-        margin-left: -2.4rem;
-        margin-top: -1rem;
-    }
-
-    figure.popularHosting figcaption h3 {
-        font-size: 1.1rem;
-        margin-left: -9rem;
-        margin-top: 0.2rem;
-    }
-
-    article.popularHostingCards p {
-        font-size: 1.1rem;
-        margin-left: -9rem;;
-        margin-top: -1rem;
-    }
-
-    article.popularHostingCards .noteHosting {
-        margin-left: -9rem;;
-        margin-top: -1rem;
-    }
-
-    /* ------ hébergements classique -------*/
-    #articleHosting {
-        width: 100%;
+    #register {
+        max-height: 55px;
+        height: 100%;
         display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        background: white;
+        align-items: center;
+        margin-top: 1rem;
+        padding-top: 2rem;
 
+        color: #0065FC;
+        font-weight: bolder;
+        grid-area: register;
+    }
+
+    #register:hover {
+        border-top: 3px #0065FC solid;
+    }
+
+
+        #articleHosting {
+        max-width: 1024px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
+        background-color: #F2F2F2;
+        border-radius: 1.5rem;
+        padding: 2.5rem;
+        height: 37rem;
+        margin-right: 2rem;
+
+    }
+
+    article.hostingCards {
+        background-color: white;
+        padding: 0.375rem;
+        border-radius: 1.25rem;
+        box-shadow: 0 0 16px #0000002e;
+        box-sizing: border-box;
+        width: 15.5rem;
+        height: 12.5rem;
+    }
+
+    article.hostingCards:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 16px lightgrey;
     }
 
     div.tittleHosting {
-        flex-basis: 100%;
+        grid-column: 1  / span 3;
+        grid-row: 1;
+        margin-bottom: -2rem;
     }
 
-    div.moreHosting {
-        flex-basis: 100%;
+    div.tittleHosting h2 {
+        font-size: 1.4rem;
+        font-weight: bolder;
     }
 
-    /* ------- Activités ------ */
-    #articleActivities {
-        width: 100%;
+    div.hostingImg img {
+        height: 7rem;
+        width: 14.5rem;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0;
+        margin-top: -0.9rem;
+        margin-left: -2.3rem;
+    }
+
+    figure.hosting figcaption h3 {
+        font-size: 1rem;
+        margin-left: -2.2rem;
+        margin-top: 0.4rem;
+    }
+
+    article.hostingCards p {
+        font-size:1rem;
+        margin-top: -0.8rem;
+        margin-left: -2.2rem;
+    }
+
+    article.hostingCards .noteHosting {
+        font-size:1rem;
+        margin-top: -0.8rem;
+        margin-left: -2.2rem;
+    }
+    div.moreHosting{
+        font-weight:bolder
+    }
+
+    /* Hébergement les plus populaires */
+
+    #articlePopularHosting {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-
+        flex-flow: column wrap;
+        align-items: center;
+        width: 22rem;
+        height: 37rem;
+        background-color: #F2F2F2;
+        border-radius: 1.5rem;;
+        padding: 2.5rem;
     }
 
-    #articleActivities h2 {
-        flex-basis: 100%;
+    article.popularHostingCards {
+        width: 22rem;
+        height: 7.5rem;
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 0 0 16px #0000002e;
         margin-bottom: 3rem;
     }
 
+    article.popularHostingCards:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 16px lightgrey;
+    }
+
+    div.popularHostingImg img {
+        border-radius: 1rem 0 0 1rem;
+        position: absolute;
+        width: 7rem;
+        height: 7rem;
+        object-fit: cover;
+        margin-top: -0.8rem;
+        margin-left: -2rem;
+    }
+
+    div.tittlePopularHosting {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+
+    div.tittlePopularHosting h2 {
+        padding-right: 7rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    figure.popularHosting figcaption h3 {
+        padding-left: 6rem;
+        font-size: 1rem;
+    }
+
+    article.popularHostingCards p {
+        padding-left: 6rem;
+        margin-top: -0.5rem;
+    }
+
+    article.popularHostingCards div.noteHosting {
+        padding-left: 6rem;
+        margin-top: 1rem;
+    }
+
+    /* Activitées */
+
+    #articleActivities {
+        display: grid;
+        column-gap: 2rem;
+        margin: 3rem 0;
+    }
+
+    #articleActivities h2 {
+        grid-column: 1  / span 3;
+        grid-row: 1;
+        font-weight: bolder;
+    }
+
+
+    article.activityCards {
+        box-shadow: 0 0 20px #0000002e;
+        border-radius: 1rem;
+        width: 18rem;
+    }
+
+    article.activityCards:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 16px lightgrey;
+    }
+
+    .activityCards figure figcaption h3 {
+        font-size: 1rem;
+        margin-left: -1.5rem;
+        font-weight: bolder;
+    }
+
     img.smallActivityImg {
-        height: 12rem;
+        width: 18rem;
+        height: 8rem;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0;
         margin-top: -1rem;
@@ -593,125 +703,92 @@ h2.tittleNavFooter {
     }
 
     img.activityImg {
-        height: 12rem;
-        object-fit: cover;
+        width: 18rem;
+        height: 12.5rem;
+        object-fit: none;
         border-radius: 1rem 1rem 0 0;
         margin-top: -1rem;
         margin-left: -2.5rem;
     }
 
     img.greatActivityImg {
-        height: 12rem;
+        width: 18rem;
+        height: 26.6rem;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0;
         margin-top: -1rem;
         margin-left: -2.5rem;
     }
 
-    .activityCards {
-        margin-bottom: 2rem;
-        max-width: 20rem;
-        max-height: 16rem;
-    }
-}
+    article.activityCard1 {
+        grid-row: 2/7;
+        grid-column: 1/2;
+        height: 30rem;
 
-@media screen and (max-width: 1024px) {
-    .logo img {
-        margin-left: -6rem;
     }
 
-    nav.mainNav {
-        display: flex;
-        margin-left: 28em;
+    article.activityCard2 {
+        grid-column: 2/3;
+        grid-row: 2/5;
+        height: 16rem;
+
     }
 
-    /* ----- Tous les  hébergements ------ */
-    section.allArticleHosting {
-        max-width: 1024px;
-        width: 100%;
-        display: flex;
-        flex-flow: column wrap;
+    article.activityCard3 {
+        grid-column: 2/3;
+        grid-row: 6/7;
     }
 
-    /* ----- hébergements les plus populaires -----*/
-    #articlePopularHosting {
-        width: 100%;
-        padding-right: 5rem;
-        padding-left: 4.5rem;
+    article.activityCard4 {
+        grid-column: 3/4;
+        grid-row: 2/7;
+        height: 30rem;
     }
 
-    article.popularHostingCards {
-        margin-left: 1.8rem;
+    article.activityCard5 {
+        grid-column: 4/5;
+        grid-row: 2/3;
     }
 
-    .tittlePopularHosting h2 {
-        margin-left: 1rem;
+    article.activityCard6 {
+        grid-column: 4/5;
+        grid-row: 4/7;
+        height: 16rem;
     }
 
-    .moreHosting {
-        margin-left: 3rem;
-    }
+    /* Footer */
 
-    /* ----- hébergements classique ------- */
-    #articleHosting {
-        width: 100%;
-        margin-left: 2.5rem;
-    }
-
-    .tittleHosting h2 {
-        margin-left: 1rem;
-    }
-
-    /* ----- Activités ----- */
-    #articleActivities {
-        display: flex;
-        flex-flow: row wrap;
-        width: 100%;
-        margin-top: 1rem;
-        margin-left: 3.5rem;
-    }
-
-    .activityCards {
-        margin-right: 0rem;
-    }
-
-    #articleActivities h2 {
-        margin-left: 2rem;
-    }
     footer {
-        width: 111.7%;
         display: flex;
         flex-flow: row nowrap;
-        padding-left: 1rem;
-    }
-
-    nav.navFooter {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        background-color: #F2F2F2;
+        margin-right:-21.8rem;
+        margin-left:-2rem;
     }
 
     nav.about {
-        margin-left: autorem;
+        margin-left: 13%;
     }
 
     nav.ourHosting {
-        margin-left: 4rem;
-        margin-top: -2rem;
+        margin-left: 12rem;
     }
 
     nav.assist {
-        margin-left: 4rem;
-        margin-top: -2rem;
+        margin-left: 15rem;
     }
 
     h2.tittleNavFooter {
-        font-size: 1.2rem;
+        margin-left: 2.3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: bolder;
     }
 
     .navFooter ul li {
         margin-bottom: 0.8rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
