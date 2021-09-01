@@ -799,12 +799,12 @@ h2.tittleNavFooter {
     }
     
     .logo img {
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
 
     nav.mainNav {
         display: flex;
-        margin-left: 10em;
+        margin-left: 30em;
     }
 
     section.filters {
@@ -815,7 +815,11 @@ h2.tittleNavFooter {
 
     section.filters h2 {
         margin-bottom: -0.5rem;
-        margin-left: 1rem;
+        margin-left: 0rem;
+    }
+
+    div.allFilters {
+        margin-left: -2rem;
     }
 
     .allFilters {
@@ -823,33 +827,34 @@ h2.tittleNavFooter {
         flex-flow: column wrap;
     }
 
-    /* ----- Tous les  hébergements ------ */
+    /* ----- Tous les  hÃ©bergements ------ */
     section.allArticleHosting {
-        max-width: 960px;
+        max-width: 768px;
         width: 100%;
         display: flex;
         flex-flow: column wrap;
     }
 
-    /* ----- hébergements les plus populaires -----*/
+    /* ----- hÃ©bergements les plus populaires -----*/
     #articlePopularHosting {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        width: 100%;
+        width: 900px;
         height: auto;
         order: -1;
         border-radius: 0;
         margin-bottom: 2rem;
-        padding-right:5.7rem
+        margin-left:-2rem;
+        padding-left:2rem;
     }
 
     article.popularHostingCards {
-        padding: 0.375rem;
+        padding: 0.358rem;
         box-sizing: border-box;
-        width: 15rem;
-        height: 12rem;
-        margin-right: -1rem;
+        width: 17rem;
+        height: 15rem;
+        margin-left: 1.5rem;
     }
 
     div.tittlePopularHosting {
@@ -857,12 +862,13 @@ h2.tittleNavFooter {
     }
 
     div.tittlePopularHosting h2 {
-        margin-left: 2.5rem;
+        margin-left: 2rem;
+        font-size:1.4rem;
     }
 
     div.popularHostingImg img {
-        height: 5rem;
-        width: 14rem;
+        height: 8rem;
+        width: 16rem;
         position: relative;
         border-radius: 1rem 1rem 0 0;
         margin-left: -2.4rem;
@@ -871,50 +877,53 @@ h2.tittleNavFooter {
 
     figure.popularHosting figcaption h3 {
         font-size: 1rem;
-        margin-left: -9rem;
+        margin-left: -8.5rem;
         margin-top: 0.2rem;
     }
 
     article.popularHostingCards p {
         font-size: 1rem;
-        margin-left: -9rem;;
+        margin-left: -8.5rem;;
         margin-top: -0.6rem;
     }
 
     article.popularHostingCards div.noteHosting {
         font-size: 1rem;
-        margin-left: -9rem;;
+        margin-left: -8.5rem;;
         margin-top: -0.5rem;
     }
 
 
     .moreHosting {
-        margin-left: 5rem;
+        margin-left: 2rem;
+        margin-top:1rem;
+        font-size:1.2rem;
     }
 
-    /* ----- hébergements classique ------- */
+    /* ----- hÃ©bergements classique ------- */
     #articleHosting {
         background-color: white;
-        max-width: 768px;
-        width: 100%;
+        max-width: 900px;
+        width: 115%;
         height: auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        margin-left:5.5rem;
+        margin-left:-2rem;
     }
     article.hostingCards{
-         width: 15rem;
-        height: 12rem;
+         width: 16rem;
+        height: 13rem;
         }
 
     .hostingCards {
-        margin-left: -1rem;
+        margin-left: 1rem;
     }
 
     div.tittleHosting {
         flex-basis: 100%;
-        margin-left:-3rem;
+        margin-left:1.7rem;
+        margin-bottom:0.5rem;
     }
 
     div.moreHosting {
@@ -922,11 +931,11 @@ h2.tittleNavFooter {
     }
 
     div.hostingImg img {
-        height: 5rem;
-        width: 14rem;
+        height: 7rem;
+        width: 15rem;
         position: relative;
-
      }
+
 
     figure.hosting figcaption h3 {
     font-size: 1rem;
@@ -939,51 +948,51 @@ h2.tittleNavFooter {
 
     article.hostingCards .noteHosting {
         font-size: 1rem;
-        margin-top: 1rem;
+        margin-top: -0.5rem;
         }
 
 
 
-    /* ----- Activités ----- */
+    /* ----- ActivitÃ©s ----- */
     #articleActivities {
-        max-width: 768px;
-        width: 100%;
+        max-width: 1000px;
+        width: 120%;
         height: auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        margin-left: 6rem;
+        margin-left: -0.5rem;
 
     }
 
     #articleActivities h2 {
         flex-basis: 100%;;
-        margin-left: 0rem;
+        margin-left: 3rem;
     }
 
     img.smallActivityImg {
-        width: 13rem;
+        width: 15rem;
         height: 12rem;
 
     }
 
     img.activityImg {
-        width: 13rem;
+        width: 15rem;
         height: 12rem;
     }
 
     img.greatActivityImg {
-        width: 13rem;
+        width: 15rem;
         height: 12rem;
 
     }
 
     article.activityCards {
-        max-width: 13rem;
-        width: 13rem;
-        max-height: 16rem;
+        max-width: 15rem;
+        width:15rem;
+        height:17rem;
         margin-bottom: 2rem;
-        margin-right: 1rem;
+        margin-right:1rem;
     }
 
     /* ----- footer ----- */
@@ -991,6 +1000,7 @@ h2.tittleNavFooter {
         width: 123.6%;
         display: flex;
         flex-flow: row nowrap;
+        padding-right:3.9rem;
     }
 
     nav.navFooter {
@@ -1000,7 +1010,7 @@ h2.tittleNavFooter {
     }
 
     nav.about {
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
 
     nav.ourHosting {
@@ -1022,6 +1032,7 @@ h2.tittleNavFooter {
         font-size: 1rem;
     }
 }
+
 
 @media screen and (max-width: 425px) {
 
