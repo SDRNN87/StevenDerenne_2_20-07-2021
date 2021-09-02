@@ -1097,7 +1097,11 @@ h2.tittleNavFooter {
     /* ----- Research ----- */
     
     .title{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .title p{
+        font-size: 1.7rem;
     }
     
     .research {
@@ -1152,11 +1156,12 @@ h2.tittleNavFooter {
 
     .infoHosting {
         width: 100%;
-        font-size:1.2rem;
+        font-size:1.7rem;
     }
 
     .searchResultWrapiconIcon {
-        margin-left:2.5rem;
+        margin-left:2.8rem;
+        width:3rem;
     }
 
     /* ----- all hÃƒÂ©bergements ------ */
@@ -1367,6 +1372,7 @@ h2.tittleNavFooter {
 
 @media screen and (max-width: 375px) {
 
+    
     body {
         margin-left:-1rem;  
     }
@@ -1377,7 +1383,7 @@ h2.tittleNavFooter {
     }
 
     header{
-        margin-left:1rem;  
+        margin-left:0rem;  
     }
 
     #register {
@@ -1385,28 +1391,34 @@ h2.tittleNavFooter {
         right: -3rem;
         bottom: 2.5rem;
         margin-right: 0;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: bolder;
     }
 
     nav.mainNav a[data-active=false] {
-        padding-left: 3rem;
-        padding-right: auto;
+        padding-left:4rem;
+        padding-right: 4.3rem;
     }
 
     .title{
-        font-size: 1.0rem;
+        font-size: 1.4rem;
+        width:28rem;
+    }
+
+    .title p{
+        font-size: 1.4rem;
+        width:28rem;
     }
 
     input.searchField {
         width:25rem;
-        height:2rem;
-}
+        height:3rem;
+    }
 
 
     .searchResultWrapiconIcon {
         width: 3rem;
-        margin-left:1.5rem;
+        margin-left:2.5rem;
     }
 
     .iconFilter {
@@ -1414,95 +1426,155 @@ h2.tittleNavFooter {
          }
 
     div.allFilters {
-        font-size:1.4rem
+        font-size:1.5rem
     }
 
-    /* ----- Hébergement les plus populaires ------ */
+    .infoHosting {
+        width: 140%;
+        font-size:1.4rem;
+    }
+
+    /* ----- HÃ©bergement les plus populaires ------ */
     #articlePopularHosting {
-        padding-right: 6.1rem;
-        margin-left: 1.2rem;
+        padding-right: 10.7rem;
+        margin-left: 0rem;
     }
 
-    article.popularHostingCards {
-        margin-left: -1.5rem;
-    }
 
     div.tittlePopularHosting h2 {
-        margin-left: -5rem;
-        font-size: 1.3rem;
+        margin-left: -4rem;
+        font-size: 1.8rem;
     }
 
-    /* ----- Hébergement classique ------ */
+     article.popularHostingCards {
+        max-width: 45rem;
+        height: 13rem;
+        width: 34rem;
+        margin-left: 0rem;
+    }
+
+    figure.popularHosting figcaption h3 {
+        font-size: 1.6rem;
+        margin-left: 5rem;
+    }
+
+    article.popularHostingCards p {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+    }
+
+    article.popularHostingCards div.noteHosting {
+        margin-left: 5rem;
+        margin-top:2rem;
+    }
+
+    div.popularHostingImg img {
+        border-radius: 1rem 0 0 1rem;
+        position: absolute;
+        width: 13rem;
+        height: 12rem;
+        object-fit: cover;
+        margin-top: -1.1rem;
+        margin-left: -2.6rem;
+    }
+
+    /* ----- HÃ©bergement classique ------ */
     div.tittleHosting h2 {
-        margin-left: 4.5rem;
-        font-size: 1.3rem;
+        margin-left: -1rem;
+        font-size: 1.8rem;
     }
 
     article.hostingCards {
         background-color: white;
         padding: 0.375rem;
-        width: 30rem;
-        height: 13rem;
-        margin-left: 12.7rem;
+        width: 35rem;
+        height: 19rem;
+        margin-left: 8.8rem;
+        margin-bottom:2rem;
     }
 
     div.hostingImg img {
-        width: 29rem;
+        width: 34rem;
+        height:11rem;
         margin-left: -2.4rem;
     }
 
-    div.moreHosting{
-        margin-left: 3rem;
-        font-size:1.2rem;
+    figure.hosting figcaption h3 {
+        font-size: 1.6rem;
+        margin-top:0.5rem;
+        margin-bottom:0.5rem;
     }
 
-    /* ----- activités ----- */
+    article.hostingCards p {
+        font-size: 1.6rem;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    article.hostingCards .noteHosting {
+        font-size: 1.6rem;
+         margin-top: -0.5rem;
+        }
+
+    div.moreHosting{
+        margin-left:-1rem;
+        font-size:1.6rem;
+    }
+
+    /* ----- activitÃ©s ----- */
     #articleActivities {
         width: 100%;
         padding-right: 0;
-        margin-left: 2.2rem;
+        margin-left: 1.5rem;
     }
 
     #articleActivities h2 {
         width: 92%;
-        margin-left: 0rem;
-        font-size: 1.3rem;
+        margin-left: 1.5rem;
+        font-size: 1.8rem;
     }
 
     img.smallActivityImg {
-        width: 30rem;
+        width: 35rem;
     }
 
     img.activityImg {
-        width: 30rem;
+        width: 35rem;
     }
 
     img.greatActivityImg {
-        width: 30rem;
+        width: 35rem;
 
     }
 
     article.activityCards {
-        max-width: 30rem;
-        width: 30rem;
+        max-width: 35rem;
+        width: 35rem;
     }
+
+     .activityCards figure figcaption h3 {
+    font-size: 1.6rem;
+    margin-left: -1.5rem;
+    font-weight: bolder;
+}
 
     /* ----- Footer ------ */
     footer {
         width: 123.7%;
-        padding-right: 4rem;
+        padding-right: 8.9rem;
     }
     
     nav.about {
-        margin-left: 0rem;
+        margin-left: 3rem;
     }
 
     nav.ourHosting {
-        margin-left: 0rem;
+        margin-left: 3rem;
     }
 
     nav.assist {
-        margin-left: 0rem;
+        margin-left: 3rem;
     }
 
 }
@@ -1514,33 +1586,34 @@ h2.tittleNavFooter {
     }
 
     header {
-        margin-left:2.5rem;  
+        margin-left:1.5rem;  
     }
 
    
     #register {
-        right: 0rem;
+        right:-3rem;
     }
 
     nav.mainNav a[data-active=true] {
-        padding-right: 3.3rem;
+        padding-right: 5.3rem;
     }
 
     nav.mainNav a[data-active=false] {
         padding-left: 5rem;
-        padding-right: 4.1rem;
+        padding-right: 6.1rem;
     }
 
+
     .title{
-        width: 100%;
+        width: 160%;
         margin-left: -0.5rem;
-        font-size:0.9rem
+        font-size:1.3rem
     }
 
     input.searchField {
-        width:20rem;
-        height:1.5rem;
-}
+        width:24rem;
+        height:3rem;
+    }
 
     .title h2 {
         font-size: 1rem;
@@ -1553,113 +1626,154 @@ h2.tittleNavFooter {
 
     section.filters h2 {
         margin-left:4.5rem;
+        font-size:1.8rem;
         }
     
     div.allFilters {
         padding-right: 0;
-        font-size:1.2rem;
-        margin-left:2.5rem;
+        font-size:1.4rem;
+        margin-left:3rem;
         width:420px;
     }
 
     .infoHosting {
-        width: 100%;
+        width: 160%;
     }
 
     .searchResultWrapiconIcon {
         margin-left:4.5rem;
     }
 
-    /* ------ Hébergement populaire ------ */
+    /* ------ HÃ©bergement populaire ------ */
     #articlePopularHosting {
-        width: 100%;
-        padding-right: 9.55rem;
-    }
-
-    article.popularHostingCards {
-        width: 28rem;
-        margin-left: 0.9rem;
+        padding-right: 12.8rem;
+        margin-left: 1.8rem;
     }
 
     div.tittlePopularHosting h2 {
-        margin-left: -1rem;
-        font-size: 1.2rem;
-        width:180px;
+        margin-left: -4rem;
+        font-size: 1.8rem;
+    }
+
+     article.popularHostingCards {
+        max-width: 45rem;
+        height: 13rem;
+        width: 34rem;
+        margin-left: 0rem;
     }
 
     figure.popularHosting figcaption h3 {
-        width: 100%;
-        margin-bottom: -0.5rem;
+        font-size: 1.6rem;
+        margin-left: 5rem;
     }
 
     article.popularHostingCards p {
-        margin-left: autorem;;
-        margin-top: 1rem;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
     }
-    
-    /* ------ Hébergement classique ------ */
-    article.hostingCards {
-        width: 28rem;
+
+    article.popularHostingCards div.noteHosting {
+        margin-left: 5rem;
+        margin-top:2rem;
     }
-    div.hostingImg img {
-        width: 27rem;
+
+    div.popularHostingImg img {
+        border-radius: 1rem 0 0 1rem;
+        position: absolute;
+        width: 13rem;
+        height: 12rem;
+        object-fit: cover;
+        margin-top: -1.1rem;
+        margin-left: -2.6rem;
     }
-    
-    
+
+    /* ------ HÃ©bergement classique ------ */
     div.tittleHosting h2 {
-        font-size: 1.2rem;
-        margin-left: 6rem;
+        width:400px;
+        margin-left: 6.5rem;
+        font-size: 1.7rem;
     }
 
     article.hostingCards {
-        margin-left: 17rem;
+        background-color: white;
+        padding: 0.375rem;
+        width: 35rem;
+        height: 19rem;
+        margin-left: 14rem;
+        margin-bottom:2rem;
     }
+
+    div.hostingImg img {
+        width: 34rem;
+        height:11rem;
+        margin-left: -2.4rem;
+    }
+
+    figure.hosting figcaption h3 {
+        font-size: 1.6rem;
+        margin-top:0.5rem;
+        margin-bottom:0.5rem;
+    }
+
+    article.hostingCards p {
+        font-size: 1.6rem;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    article.hostingCards .noteHosting {
+        font-size: 1.6rem;
+         margin-top: -0.5rem;
+        }
 
     div.moreHosting{
-        margin-left: 4.5rem;
-        font-size:1.1rem;
+        margin-left:2rem;
+        font-size:1.6rem;
     }
+
     /* ------ Activitées ------ */
     #articleActivities {
-        margin-left: -0.2rem;
+        margin-left: -2.2rem;
     }
 
     img.smallActivityImg {
-        width: 28rem;
+        width: 35rem;
     }
 
     img.activityImg {
-        width: 28rem;
+        width: 35rem;
     }
 
     img.greatActivityImg {
-        width: 28rem;
+        width: 35rem;
     }
 
     article.activityCards{
         margin-left:5.5rem;
-        max-width: 28rem;
-        width: 28rem;
+        max-width: 35rem;
+        width: 35rem;
         }
     
     #articleActivities h2{
-        font-size: 1.2rem;
-        margin-left: 4rem;
+        font-size: 1.8rem;
+        margin-left: 7rem;
     }
 
+    /* ------ Footer ------ */
     footer {
-        padding-right: 7.9rem;
+        padding-right: 13.3rem;
     }
 
     nav.about {
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
     nav.ourHosting {
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
     nav.assist {
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 }
