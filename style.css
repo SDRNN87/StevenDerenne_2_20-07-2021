@@ -1035,7 +1035,7 @@ h2.tittleNavFooter {
 
 
 @media screen and (max-width: 425px) {
-
+   
     body {
         margin-left:-1rem;  
     }
@@ -1053,6 +1053,7 @@ h2.tittleNavFooter {
     .logo img {
         margin-top: -1rem;
         margin-left: 2rem;
+        width:8rem;
     }
 
     #register {
@@ -1060,20 +1061,20 @@ h2.tittleNavFooter {
         right: -6rem;
         bottom: 2.5rem;
         margin-right: 0;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: bolder;
     }
 
     nav.mainNav {
         max-width: 425px;
         width: 100%;
-        margin: 4rem 0 0 -10rem;
+        margin: 4rem 0 0 -11rem;
     }
 
     nav.mainNav a {
         margin-right: 0rem;
         padding-bottom: 1rem;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-weight: bolder;
         width: 100%;
         border-bottom: 3px #F2F2F2 solid;
@@ -1083,20 +1084,20 @@ h2.tittleNavFooter {
         color: #0065FC;
         border-top: none;
         border-bottom: 3px #0065FC solid;
-        margin-left: 3rem;
-        padding-left: 3rem;
+        margin-left: 2rem;
+        padding-left: 2rem;
         padding-right: 7.7rem;
     }
 
     nav.mainNav a[data-active=false] {
-        padding-left: 6rem;
-        padding-right: 6.5rem;
+        padding-left: 4.5rem;
+        padding-right: 6.8rem;
     }
 
     /* ----- Research ----- */
     
     .title{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     
     .research {
@@ -1114,18 +1115,19 @@ h2.tittleNavFooter {
 
     input.searchField {
         width:27rem;
-        height:2rem;
+        height:3rem;
+        font-size:1.5rem;
     }
 
     form i {
-        font-size: 23px;
+        font-size: 40px;
         padding: 13px 14px 15px;
-    
+
     }
 
     .searchFormSubmitinputIcon {
         display: block;
-        width: 1rem;
+        width: 2.5rem;
         background: #0065FC;
         border: 1px #0061f2 solid;
         border-radius: 0.7rem;
@@ -1133,30 +1135,31 @@ h2.tittleNavFooter {
         padding-top: 0.8rem;
         padding-left: 0.6rem;
         margin-left: -0.5rem;
-}
+    }
 
     /* ----- Filtres ------ */
     section.filters h2 {
         margin-left:2.5rem;
-        font-size:1.6rem;
+        font-size:2rem;
         }
     
     div.allFilters {
         padding-right: 0;
-        font-size:1.4rem;
+        font-size:1.7rem;
         margin-left:1rem;
         width:500px;
     }
 
     .infoHosting {
         width: 100%;
+        font-size:1.2rem;
     }
 
     .searchResultWrapiconIcon {
         margin-left:2.5rem;
     }
 
-    /* ----- all hÃ©bergements ------ */
+    /* ----- all hÃƒÂ©bergements ------ */
     section.allArticleHosting {
         max-width: 425px;
         height: auto;
@@ -1164,7 +1167,7 @@ h2.tittleNavFooter {
         flex-flow: column wrap;
     }
 
-    /* ----- HÃ©bergement les plus populaires ------ */
+    /* ----- HÃƒÂ©bergement les plus populaires ------ */
     #articlePopularHosting {
         width: 100%;
         display: flex;
@@ -1178,44 +1181,45 @@ h2.tittleNavFooter {
 
     div.tittlePopularHosting h2 {
         margin-left: -7rem;
-        padding-right: 13rem;
-        font-size:1.4rem;
+        padding-right: 8rem;
+        font-size:2rem;
     }
 
     article.popularHostingCards {
         max-width: 45rem;
-        height: 9rem;
+        height: 12rem;
         width: 35rem;
         margin-left: 0rem;
     }
 
     figure.popularHosting figcaption h3 {
-        font-size: 1rem;
+        font-size: 1.7rem;
         margin-left: 5rem;
     }
 
     article.popularHostingCards p {
-        font-size: 1rem;
+        font-size: 1.7rem;
         margin-bottom: 2rem;
         margin-left: 5rem;
     }
 
     article.popularHostingCards div.noteHosting {
         margin-left: 5rem;
-        margin-top:3rem;
+        margin-top:-1rem;
+        font-size:1.7rem;
     }
 
     div.popularHostingImg img {
         border-radius: 1rem 0 0 1rem;
         position: absolute;
-        width: 13rem;
-        height: 8.5rem;
+        width: 12rem;
+        height: 11rem;
         object-fit: cover;
         margin-top: -1.1rem;
         margin-left: -2.6rem;
     }
 
-    /* ------ HÃ©bergement classique ------ */
+    /* ------ HÃƒÂ©bergement classique ------ */
     #articleHosting {
         width: 100%;
         display: flex;
@@ -1231,29 +1235,30 @@ h2.tittleNavFooter {
         background-color: white;
         padding: 0.375rem;
         width:35rem;
-        height: 15rem;
+        height: 19rem;
         margin-left: 9rem;
     }
 
     div.tittleHosting h2 {
-        font-size: 1.4rem;
+        font-size: 2rem;
         font-weight: bolder;
         margin-left: -1rem;
     }
 
     figure.hosting figcaption h3 {
-        font-size: 1rem;
-        margin-top:00.5rem;
+        font-size: 1.7rem;
+        margin-top:0.5rem;
+        margin-bottom:0.5rem;
     }
 
     article.hostingCards p {
-        font-size: 1rem;
-        margin-top: 0.3rem;
+        font-size: 1.7rem;
+        margin-top: 0rem;
         margin-bottom: 1rem;
     }
 
     div.hostingImg img {
-        height: 9rem;
+        height: 11rem;
         width: 34rem;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0;
@@ -1266,16 +1271,16 @@ h2.tittleNavFooter {
     }
 
     article.hostingCards .noteHosting {
-        font-size: 1rem;
+        font-size: 1.7rem;
          margin-top: -0.5rem;
-        }
+    }
         
     .moreHosting {
         margin-left: 0rem;
-        font-size:1.2rem;
+        font-size:1.7rem;
     }
 
-    /* ----- activitÃ©s ----- */
+    /* ----- activitÃƒÂ©s ----- */
     #articleActivities {
         width: 90%;
         display: flex;
@@ -1286,32 +1291,38 @@ h2.tittleNavFooter {
 
     img.smallActivityImg {
         width: 35rem;
-        height: 9rem;
+        height: 13rem;
     }
 
  
 
     img.greatActivityImg {
         width: 35rem;
-        height: 9rem;
+        height: 13rem;
 
     }
 
      img.activityImg {
         width: 35rem;
-        height: 9rem;
+        height: 13rem;
     }
 
     article.activityCards {
         max-width: 35rem;
         width: 35rem;
-        max-height: 13rem;
-        margin-bottom: 2rem;
-        margin-left: 0rem;
+        max-height: 19rem;
+        height:19rem
     }
 
     #articleActivities h2{
         margin-left: 0rem;
+        font-size:2rem;
+    }
+
+    .activityCards figure figcaption h3 {
+    font-size: 1.7rem;
+    margin-left: -1.5rem;
+    font-weight: bolder;
     }
 
     /* ----- footer ----- */
@@ -1350,11 +1361,9 @@ h2.tittleNavFooter {
 
     .navFooter ul li {
         margin-bottom: 0.8rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
-
-
 
 @media screen and (max-width: 375px) {
 
