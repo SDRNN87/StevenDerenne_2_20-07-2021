@@ -37,7 +37,6 @@ header {
 div.logo {
     padding-top: 2rem;
     margin-left: -1rem;
-    grid-area: logo;
 }
 
 
@@ -53,7 +52,6 @@ nav.mainNav a {
     margin-right: 2rem;
     padding-top: 2rem;
     font-weight: bolder;
-    grid-area: mainNav;
 }
 
 nav.mainNav a:hover {
@@ -71,7 +69,6 @@ nav.mainNav a:hover {
 
     color: #0065FC;
     font-weight: bolder;
-    grid-area: register;
 }
 
 #register:hover {
