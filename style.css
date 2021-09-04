@@ -1101,12 +1101,12 @@ h2.tittleNavFooter {
         border-bottom: 3px #0065FC solid;
         margin-left: 2rem;
         padding-left: 2rem;
-        padding-right: 7.7rem;
+        padding-right: 6.5rem;
     }
 
     nav.mainNav a[data-active=false] {
         padding-left: 4.5rem;
-        padding-right: 6.8rem;
+        padding-right: 8rem;
     }
 
     /* ----- Research ----- */
@@ -1410,9 +1410,18 @@ h2.tittleNavFooter {
         font-weight: bolder;
     }
 
+    nav.mainNav a[data-active=true] {
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 3px #0065FC solid;
+        margin-left: 2rem;
+        padding-left: 2rem;
+        padding-right: 5rem;
+    }
+
     nav.mainNav a[data-active=false] {
         padding-left:4rem;
-        padding-right: 4.3rem;
+        padding-right: 7rem;
     }
 
     .title{
@@ -1616,7 +1625,7 @@ h2.tittleNavFooter {
 
     nav.mainNav a[data-active=false] {
         padding-left: 5rem;
-        padding-right: 6.1rem;
+        padding-right: 6.2rem;
     }
 
 
