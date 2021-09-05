@@ -1096,8 +1096,8 @@ h2.tittleNavFooter {
         border-top: none;
         border-bottom: 3px #0065FC solid;
         margin-left: 2rem;
-        padding-left: 2rem;
-        padding-right: 6.5rem;
+        padding-left: 3rem;
+        padding-right: 5.5rem;
     }
 
     nav.mainNav a[data-active=false] {
@@ -1416,8 +1416,8 @@ h2.tittleNavFooter {
         border-top: none;
         border-bottom: 3px #0065FC solid;
         margin-left: 2rem;
-        padding-left: 2rem;
-        padding-right: 5rem;
+        padding-left: 3rem;
+        padding-right: 4rem;
     }
 
     nav.mainNav a[data-active=false] {
@@ -1621,12 +1621,18 @@ h2.tittleNavFooter {
     }
 
     nav.mainNav a[data-active=true] {
-        padding-right: 5.3rem;
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 3px #0065FC solid;
+        margin-left: 2rem;
+        padding-left: 3rem;
+        padding-right: 4rem;
     }
+
 
     nav.mainNav a[data-active=false] {
         padding-left: 5rem;
-        padding-right: 6.2rem;
+        padding-right: 6.5rem;
     }
 
 
